@@ -8,7 +8,7 @@ A student project with a static weather website and a visual preview of the comp
 - `style.css`, `aboutme.css`, and `contactme.css` — website styles.
 - `script.js` — weather API requests and page behavior.
 - `weather-app-preview.png` — visual preview of the Flutter app screens.
-- `team-member-5.jpg` — image used by the project website.
+
 
 ## Run the website locally
 
