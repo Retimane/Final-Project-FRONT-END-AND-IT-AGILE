@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<h1>The Weather Website</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<section id="current-weather" class="card">
+		<h2>Current Weather</h2>
+		<div class="weather-info">
+			<img id="weather-icon" src="" alt="Weather Icon">
+			<div>
+				<p id="weather-condition"></p>
+				<p id="temperature"></p>
+			</div>
+		</div>
+	</section>
+	<section id="search-location" class="card">
+		<h2>Search for a Location</h2>
+		<div class="search-bar">
+			<input id="location-input" type="text" placeholder="Enter a city name">
+			<button id="search-btn"><i class="fas fa-search"></i></button>
+		</div>
+	</section>
+	<section id="weather-forecast" class="card">
+		<h2>Weather Forecast</h2>
+		<ul id="forecast-list"></ul>
+	</section>
+</main>
+<footer>
+	<p>&copy; 2024 The Weather Website. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
